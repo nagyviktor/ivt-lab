@@ -14,6 +14,8 @@ public class TorpedoStore {
   private double FAILURE_RATE = 0.0; //NOSONAR
 
   private int torpedoCount = 0;
+  //A SecureRandom biztonságosabb
+  private Random rand = new SecureRandom();
 
   //Biztonságosabb mint az eredeti Random osztály.
   private Random rand = new SecureRandom();
