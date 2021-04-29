@@ -15,6 +15,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //Biztonságosabb mint az eredeti Random osztály.
   private Random rand = new SecureRandom();
 
   public TorpedoStore(int numberOfTorpedos){
